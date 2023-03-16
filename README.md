@@ -1,27 +1,17 @@
-# MemoryGame
+# Review Task: Memory Game
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+### Technology : Angular
 
-## Development server
+### Features:
+- Initially, All Card Faced Down
+- When the User Click On Any Card, It Will Face Up And the User Can Read the Data/Image On That Card
+- Maximum grid size is: 5*4 = 20 (Total 10 pairs)
+- Take 15 different Colour, Icons, and images. Every time display any random 10 pairs. (In the case of 5*4)
+- User Can Open Maximum 2 Cards. If Both Cards Are Unmatched Then After 1 Second Both Card Closed
+- If Both Cards Are Matched Then Both Card Will Be Open And Disabled
+- Click on the Random button will be chosen a random game. Users can change the type and size.
+- If the game is completed then display a congratulations message.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Preview:
+![](./README_ASSETS/review_img1.png)
+![](./README_ASSETS/review_img2.png)
