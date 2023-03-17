@@ -4,7 +4,7 @@
       <div class="container-controls">
         <div class="radio-group-type">
           <span>Select Type: </span>
-          <label for="color" (click)="type = 'color'"
+          <label for="color" (click)="!gameStarted && type = 'color'"
             ><input
               type="radio"
               [disabled]="gameStarted"
@@ -14,7 +14,7 @@
             />
             Color</label
           >
-          <label for="icon" (click)="type = 'icon'"
+          <label for="icon" (click)="!gameStarted && type = 'icon'"
             ><input
               type="radio"
               [disabled]="gameStarted"
@@ -24,7 +24,7 @@
             />
             Icon</label
           >
-          <label for="image" (click)="type = 'image'"
+          <label for="image" (click)="!gameStarted && type = 'image'"
             ><input
               type="radio"
               [disabled]="gameStarted"
@@ -38,7 +38,7 @@
 
         <div class="radio-group-size">
           <span>Select Size:</span>
-          <label for="2*3" (click)="changeGrid(2, 3)"
+          <label for="2*3" (click)="!gameStarted && changeGrid(2, 3)"
             ><input
               type="radio"
               [disabled]="gameStarted"
@@ -47,7 +47,7 @@
             />
             2*3</label
           >
-          <label for="3*4" (click)="changeGrid(3, 4)"
+          <label for="3*4" (click)="!gameStarted && changeGrid(3, 4)"
             ><input
               type="radio"
               [disabled]="gameStarted"
@@ -56,7 +56,7 @@
             />
             3*4</label
           >
-          <label for="4*5" (click)="changeGrid(4, 5)"
+          <label for="4*5" (click)="!gameStarted && changeGrid(4, 5)"
             ><input
               type="radio"
               [disabled]="gameStarted"
